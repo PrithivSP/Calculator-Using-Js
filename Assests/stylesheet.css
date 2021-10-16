@@ -1,4 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@502&display=swap");
+
 * {
-  color: rgb(255, 72, 0);
-  background-color: #141414;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+:root {
+  --primary: #f22c00;
+  --secondary: black;
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+/* Header styling */
+.header {
+  padding: 2em 0em 0em 0em;
+}
+
+/* container-box */
+.container-box {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  padding: 2em 0em;
+}
+.input-box input {
+  background-color: rgb(200, 200, 200);
+  border: none;
+  width: 15em;
+  color: var(--primary);
+}
+.input-box input:focus {
+  outline: none;
+}
+.btn {
+  color: var(--primary);
+}
+
+.btn:focus {
+  box-shadow: none;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
 }
