@@ -37,6 +37,7 @@ body {
   border: none;
   width: 15em;
   color: var(--primary);
+  margin-left: -2%;
 }
 .input-box input:focus {
   outline: none;
